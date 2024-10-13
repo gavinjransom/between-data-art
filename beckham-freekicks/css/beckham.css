@@ -1,4 +1,5 @@
 @import url("../../common/css/base.css");
+@import url("./desktop.css");
 
 svg {
     color:#e4e9dd
@@ -12,58 +13,6 @@ image {
 
 select {
     font-weight: 100;
-}
-
-#club-filter {
-    background-color: #1d1b1b;
-    border-color: #757E63;
-    color: #757E63;
-    font-size: 20px;
-    font-weight: 100;
-    padding: 2.5px 10px 2.5px 0px;
-    border-radius: 4px;
-    -webkit-font-smoothing: antialiased;
-    font-family: 'Open Sans Light', sans-serif;
-}
-
-#beckham-container {
-    justify-content: center;
-    margin-left: 5%;
-}
-
-#visualisation-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-top: 20px;
-}
-
-#svg-container {
-    width: fit-content;
-}
-
-#legend-tooltip {
-    margin-top: 37.5px;
-}
-
-#legend-container {
-    margin-left: 20px;
-    padding: 0px 10px 10px 0px;
-}
-
-.legend-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-    font-size: 25px;
-    font-weight: 200;
-}
-
-.legend-color {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    border: 1px solid #000;
 }
 
 .axis path {
@@ -89,18 +38,6 @@ select {
 .axis text {
     display: none; 
 } 
-
-#tooltip {
-    margin-left: 20px;
-    margin-top: 20px;
-    background-color: #1d1b1b;
-    border-radius: 4px;
-    font-size: 35px;
-    font-weight: 200;
-    pointer-events: none; 
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
 
 .pitch {
     transition: opacity 0.3s ease-in-out;

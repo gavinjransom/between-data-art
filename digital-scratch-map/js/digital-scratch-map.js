@@ -78,7 +78,7 @@ highlightListItem(country);
 // Highlight the country on the map
 svg.selectAll('path')
 .filter(d => d.properties.ADMIN === country)
-.attr('fill', '#4ca55f');
+.attr('fill', '#3c7644');
 
 if (currentIndex > 0) {
     const prevCountry = countries[currentIndex - 1];

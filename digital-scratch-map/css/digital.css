@@ -16,18 +16,18 @@ margin-top: 20px;
 }
 
 .list {
-flex: 1;
-font-size: 20px;
+flex: 1 1 auto;
+font-size: 10.5px;
 font-weight: 200;
 list-style-type: none;
 padding: 0;
 margin: 0px;
 display: flex;
-width: 50%;
+max-width: 100%;
 }
 
 .list li {
-    padding: 0px 12px;
+padding: 0px 12px;
 }
 
 #rowOne li, #rowTwo li {
@@ -42,14 +42,13 @@ margin-bottom: 20px;
 
 /* Map */
 .container-graph {
-    /* padding-left: 7.5%; */
-    display: flex;
-    justify-content: left;
-    flex: 2;
-    width: 1000px;
-    height: 600px;
+display: flex;
+justify-content: left;
+flex: 2;
+width: 1000px;
+height: 600px;
 }
 
 #map {
-    width: 100%;
+width: 100%;
 }
